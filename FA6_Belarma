@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+       
+        a:link{
+            color: white ;
+        }
+
+        a:visited {
+            background-color:;
+        }
+
+        a:hover {
+            color: white;
+            background-color: #e08dad;
+        }
+
+        a:active {
+            color: black;
+            background-color: #335987;
+        }
+        #div1 {
+			margin-top: 3%;
+			font-size: 250%;
+			border-style: solid;
+            border:2px solid black;
+			border-color: black;
+			width: 10%;
+			text-align: center;
+			
+        } 
+        #div2{
+			margin-top: 3%;
+            font-size: 250%;
+			border-style: solid;
+            border:2px solid black;
+			border-color: black;
+			width: 10%;
+			text-align: center;
+        }
+		a{
+			margin-right: 1%;
+			border-style:solid;
+			border-color:pink;
+			font-size: 250%;
+		}
+		#div1:target{
+			color: blue;
+			font-style:italic;
+			background-color: lavender;
+			border: solid black;
+		}
+		#div2:target{
+			font-style:italic;
+			background-color: lavender;
+			border: 10px dotted green;
+		}
+		#div3 {
+			margin-top: 3%;
+			font-size: 250%;
+			border-style: solid;
+            border:2px solid black;
+			border-color: black;
+			width: 10%;
+			text-align: center;
+		}
+    </style>
+</head>
+<body>
+	<a href="#div1"> First link</a>
+	<a href="#div2"> Second link</a>
+	<a href="#div3"> Return </a>
+	<div id="div1"> div1</div>
+	<div id="div2"> div2</div>
+	
+    
+</body>
+</html>
